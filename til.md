@@ -10,7 +10,7 @@ permalink: til/
 <div class="tree">
   <ul>
     {% for group in collection %}
-    <li><input type="checkbox" id="{{group.name}}" checked><label for="{{group.name}}" id="{{group.name}}"><a href="{{site.baseurl}}til/{{group.name}}/">{{group.name}}</a></label>
+    <li><input type="checkbox" id="{{group.name}}" checked><label for="{{group.name}}" id="{{group.name}}"><a href="{{site.baseurl}}{{group.name}}/">{{group.name}}</a></label>
     <ul>
       {% for item in group.items %}
         {% assign counter=counter | plus:1 %}
