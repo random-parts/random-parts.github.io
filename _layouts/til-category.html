@@ -26,4 +26,4 @@ layout: default
 <!-- category paging -->
 {% assign til_cats = site[page.collection] | group_by: "category" | sort: "name", "first" | map: "name" %}
 
-{% include paging.html paging=til_cats current_item=page.category url_prepend="/til/" link_title=til_cats%}
+{% include paging.html paging=til_cats current_item=page.category url_prepend="" link_title=til_cats%}

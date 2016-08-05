@@ -7,12 +7,14 @@
 
 # Site settings
 title: random parts
-email: strap.modnar@tcatnoc
+email:
 description: > # this means to ignore newlines until "baseurl:"
   ©2016 random parts
+
+# the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000"
-#"https://random.parts" # the base hostname & protocol for your site
+url: "http://random.parts"
+
 #twitter_username:
 github_username:  random-parts
 
