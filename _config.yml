@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: random parts
+email: strap.modnar@tcatnoc
+description: > # this means to ignore newlines until "baseurl:"
+  ©2016 random parts
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000"
+#"https://random.parts" # the base hostname & protocol for your site
+#twitter_username:
+github_username:  random-parts
+
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
+syntax_highlighter: rouge
+
+show_dir_listing: false
+
+excerpt_separator: <!--more-->
+
+collections:
+  til:
+    output: true
+  til_categories:
+    output: true
+
+defaults:
+  -
+    scope:
+      type: til
+    values:
+      permalink: /:collection/:categories/:slug/
+      layout: til-single
+  -
+    scope:
+      type: til_categories
+    values:
+      permalink: /til/:categories/
+      layout: til-category
+
+array: []
+
+sass:
+  sass_dir: _sass
+  style: compressed

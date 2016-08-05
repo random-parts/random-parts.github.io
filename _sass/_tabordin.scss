@@ -1,0 +1,85 @@
+.tabordion {
+  display: block;
+  font-family: arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+
+.tabordion input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.tabordion section {
+  display: block;
+}
+
+.tabordion section label {
+  cursor: pointer;
+  display: block;
+  padding: 5px 10px;
+  position: relative;
+    -webkit-border-radius:5px 5px 0px 0px;
+    -moz-border-radius:5px 5px 0px 0px;
+  & > span { display: none; }
+  &:hover {
+    background: $grey-color-light;
+    color: $text-color;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+  }
+
+  a {color: $text-color;}
+}
+
+.tabordion section article {
+  left: 0;
+  padding: $spacing-unit / 2;
+  background: $bg-color-lighter;
+  border: $grey-color-dark solid 1px;
+  position: relative;
+  display: none;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+}
+
+.tabordion input[name="sections"]:checked + label {
+  background: $grey-color-dark;
+  color: $bg-color-lighter;
+  &:hover {    -webkit-border-radius:5px 5px 0px 0px;
+    -moz-border-radius:5px 5px 0px 0px;}
+  > span {
+    display: inline;
+    float: right;
+  }
+  a {color: $bg-color-lighter;}
+
+}
+
+.tabordion input[name="sections"]:checked ~ article {
+  display: block;
+  padding: 10px 0px;
+}
+.tabordion input[name="sections"] + label ~ article {
+  display: none;
+}
+
+
+/* accordion */
+
+@include media-query ($on-palm) {
+  .tabordion {
+    display: static;
+    font-size: .875em;
+    width: 100%;
+	}
+  .tabordion section {
+    display: static;
+   }
+   .tabordion section article {
+     position: static;
+
+   }
+}

@@ -1,0 +1,48 @@
+.tree {
+  > ul {
+    list-style-type:none;
+    margin: 0;
+
+    > li > ul {margin-left: 2em;}
+
+    > li > label {
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-block;
+      width: 100%;
+      padding: .375em .5em;
+      margin: .25em 0;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      a {color: $text-color;}
+    }
+
+    > li > input[type=checkbox]{
+      left: -9999px;
+      position: absolute;
+      top: -9999px;
+
+      ~ ul{
+        display: none;
+        }
+    }
+
+    > li > input[type=checkbox]:checked ~ ul{
+      display: block;
+      }
+
+    > li > input[type=checkbox] ~ label {
+      a {color: $text-color;}
+      &:hover {
+          cursor: pointer;
+          background: $background-color;
+          color: $bg-color-lighter;
+          a {color: $bg-color-lighter}
+        }
+      &:checked {
+          background: $bg-color-light;
+          color: $text-color;
+      }
+    }
+  }
+}

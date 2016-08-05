@@ -1,0 +1,6 @@
+[submodule "_til"]
+	path = _til
+	url = https://github.com/random-parts/til.git
+[submodule "_til_categories"]
+	path = _til_categories
+	url = https://github.com/random-parts/til.git

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<!-- slug paging -->
+{% assign collections = site[page.collection] | group_by: "category" |  sort: "name", "first" %}
+
+{% assign slug_urls = site.array %}
+{% assign link_titles = "" | split: "|" %}
+
+{% for group in collections %}
+  {% for item in group.items %}
+    {% assign slug_urls = slug_urls | push: item.url %}
+    {% assign link_titles = link_titles | push: item.headline %}
+  {% endfor %}
+{% endfor %}
+
+{% include paging.html paging=slug_urls current_item=page.url url_prepend="" link_title=link_titles %}
+<!-- start single content -->
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.headline | default: page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> in <a href="{{page.category | prepend: "/til/" | prepend: site.baseurl | prepend: site.url }}">{{page.category}}</a></p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>

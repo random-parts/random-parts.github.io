@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign collection = site[page.collection] | where: "category", page.category | sort: "headline", "first" %}
+
+<h1>{{page.category}}</h1>
+<nav>
+  <ul>
+  {% for article in collection %}
+    {% if article.headline %}
+    <div class="tabordion">
+      <section id="section-{{article.slug}}-{{forloop.index}}">
+        <input type="radio" name="sections" id="option-{{article.slug}}-{{forloop.index}}">
+        <label for="option-{{article.slug}}-{{forloop.index}}">{{article.headline}}<span><a href="{{page.url | prepend: site.baseurl}}{{article.slug}}">single view</a></span></label>
+        <article>
+        <div class="wrapper">
+          {{article.content}}
+        </div>
+        </article>
+      </section>
+    </div>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>
+<!-- category paging -->
+{% assign til_cats = site[page.collection] | group_by: "category" | sort: "name", "first" | map: "name" %}
+
+{% include paging.html paging=til_cats current_item=page.category url_prepend="/til/" link_title=til_cats%}

@@ -1,0 +1,134 @@
+---
+layout: default
+---
+<p>LAYOUT TIL</p>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+<!-- TODO add cat/tags with arrow>boxed graphics  + links
+<
+<!-- START LAYOUT FOR CATEGORY IN URL -->
+{% assign collection = site.til | group_by: "category" | sort: "date" %}
+
+
+<!-- MAKE TABCORDIN -->
+{% for group in collection %}
+{% if page.url contains group.name %}
+
+  <h3>{{ group.name }}</h3>
+    {% for item in group.items %}
+
+    {% assign theid = item.id | split: "/" | last | slugify %}
+{{page.url}}
+<!-- {% include til.html param=group.name %} -->
+
+<div class="post-content">
+
+<div class="tabordion">
+  <section id="section{{forloop.index}}">
+    <input type="radio" name="sections" id="option{{forloop.index}}" {% if forloop.first %}checked{% endif %}>
+    <label for="option{{forloop.index}}">{{item.title}}</label>
+    <article class="post">
+      <div class="wrapper">
+        {{ item.content }}
+      </div>
+    </article>
+  </section>
+</div>
+{%endfor%}
+{% endif %}
+{% endfor %}
+</div>
+<!--
+<div class="post-content">
+{% for post in site.til | sort: 'date', 'first' %}
+  {% if post.title %}
+
+<div class="tabordion">
+  <section id="section{{forloop.index}}">
+    <input type="radio" name="sections" id="option{{forloop.index}}" {% if forloop.first %}checked{% endif %}>
+    <label for="option{{forloop.index}}">{{post.title}}</label>
+    <article class="post">
+      <div class="wrapper">
+        {{ post.content }}
+      </div>
+    </article>
+  </section>
+</div>
+  {% endif %}
+{% endfor %}
+</div> -->
+ <p>{{page.title}}</p>
+  {% for tag in page.tags%}
+  <p>{{tag}}</p>
+  {% endfor%}
+
+---
+{% assign collection = site.til | group_by: "category" | sort: "category" %}
+
+{% for group in collection %}
+  <h3>{{ group.name }}</h3>
+  <ul>
+    {% for item in group.items %}
+    <li>{{item.url}}</li>
+    {%endfor%}
+  </ul>
+  <br>
+{% include til.html param=group.name %}
+<br>
+{%endfor%}
+<br>
+
+
+
+{% capture test %}
+{% for d in site.til %}
+<br> >
+{{d.category}}<br> >{{d.title}} +++++<br><br>
+{% endfor %}
+{% endcapture %}
+{{test | group_by:"category"}}
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+
+  <hr>
+    {{ content }}
+    <div class="divider">*****</div>
+  </div>
+
+<div class="next_post">
+<!-- assign CATNAME = page.category -->
+
+<!-- if til.category.CATNAME | count > 1
+for post in til.category.CATNAME | sort date
+if date >= page.date && title NOT page.title
+ ==> a href til/cat/{post} > Next>>
+ {assign next = {posttitle}}
+
+ if date <= page.date && title NOT page.title && not {posttile}
+ ==> a href til/cat/{post} > <<Prev
+-->
+
+<!--
+array of til.category.post ?
+
+find tail.cat.{page.title}
+assign next = array + 1
+assign prev = array -1
+ -->
+
+ <!--
+relatedpost > site.documents.tags
+{ assign doc = site.documents | where: "tag", contain? [values]}
+  -->
+  <p>Next >></p>
+</div>
+<div class="prev_post">
+  <p><< Prev</p>
+</div>
+</article>
+
+<a name="test">this</a>
