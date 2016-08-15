@@ -165,19 +165,16 @@ a {
  * Code formatting
  */
 
-pre,
-code {
-    font-family: Source Code Pro;
-    font-size: 1em;
-}
 
-pre {
+pre.highlight {
     padding: 8px 12px;
     overflow-x: auto;
     line-height: $base-line-height / 1.063;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    > code {
+
+     code {
+        font-family: $code-font-family;
         font-size: .875em;
         border: 0;
         padding-right: 0;

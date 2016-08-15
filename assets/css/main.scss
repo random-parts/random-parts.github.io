@@ -7,11 +7,11 @@ sitemap:
 
 
 // Our variables
-$base-font-family: monospace,"Arvo", sans-serif;
+$base-font-family: monospace, "Inconsolata", "Arvo", sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.4;
 
 $spacing-unit:     30px;
 
@@ -23,7 +23,9 @@ $bg-color-light:   #fbfbf8;
 $bg-color-lighter: #ffffff;
 $brand-color:      #0066cc;
 
-
+$bg-code-block:    #272822;
+$code-color:       #990066;
+$code-font-family: "Source Code Pro";
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -56,6 +58,7 @@ $on-laptop:        960px;
 @import
         "base",
         "layout",
+        "syntax",
         "tabordin",
         "tree"
 ;
