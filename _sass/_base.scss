@@ -151,6 +151,7 @@ a {
     > blockquote {
         padding: 40px;
         letter-spacing: 0em;
+        line-height: $base-line-height * 1.2;
         p {color: $background-color;}
     }
 
