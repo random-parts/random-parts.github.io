@@ -12,7 +12,7 @@ layout: default
       <section id="section-{{article.slug}}-{{forloop.index}}">
         <input type="radio" name="sections" id="option-{{article.slug}}-{{forloop.index}}">
         <label for="option-{{article.slug}}-{{forloop.index}}">{{article.headline}}<span><a href="{{page.url | prepend: site.baseurl}}{{article.slug}}">single view</a></span></label>
-        <article>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="wrapper">
           {{article.content}}
         </div>

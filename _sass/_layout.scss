@@ -211,6 +211,30 @@
 /**
  * Posts
  */
+
+.post {
+      table {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin-bottom: $spacing-unit/2;
+        thead th {
+            padding: 0 1em;
+        }
+        tbody {
+            border: 1px solid gray;
+            code { background: inherit; }
+            tr:nth-of-type(odd) {
+                background: $grey-color-light;
+            }
+            td {
+                border: 1px solid gray;
+                padding: 0 1em;
+            }
+        }
+    }
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -233,26 +257,7 @@
     li > p {text-indent: 0;}
 
     hr {margin: $spacing-unit/3 0 $spacing-unit/3 0;}
-    table {
-            border: 1px solid gray;
-            border-collapse: collapse;
-            border-spacing: 0;
-            margin-bottom: $spacing-unit/2;
-        thead th {
-            padding: 0 1em;
-        }
-        tbody {
-            border: 1px solid gray;
-            code { background: inherit; }
-            tr:nth-of-type(odd) {
-                background: $grey-color-light;
-            }
-            td {
-                border: 1px solid gray;
-                padding: 0 1em;
-            }
-        }
-    }
+
     h2 {font-size: 1.5em;}
     h3 {font-size: 1.375em;}
     h4 {

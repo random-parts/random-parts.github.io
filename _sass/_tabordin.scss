@@ -43,7 +43,7 @@
   display: none;
     -webkit-border-radius: 0px 0px 5px 5px;
     -moz-border-radius: 0px 0px 5px 5px;
-
+  code.highlighter-rouge {background: $bg-color-lighter;}
 }
 
 .tabordion input[name="sections"]:checked + label {
