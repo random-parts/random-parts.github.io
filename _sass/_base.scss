@@ -118,14 +118,21 @@ a {
  * Blockquotes
  */
  blockquote {
+    position: inherit;
     letter-spacing: .1875em;
-    margin:0px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 10px 15px;
     padding: 0px;
     text-align: center;
-    position: relative;
-
+    p {
+        text-indent: 0em;
+        border-left: 10px solid $grey-color;
+        background-color: $grey-color-light;
+        color: $grey-color-darkest;
+        font-weight: 600;
+        letter-spacing: 0px;
+        padding: 10px;
+        font-family:"Inconsolata";
+    }
     footer {
         position: absolute;
         bottom: -35px;
@@ -134,30 +141,37 @@ a {
         letter-spacing: 0px;
         left:0px;
         right: 0px;
-
         &:before {content: "** ";}
         &:after {content: " **";}
     }
-
-    p {
-        display: inline;
-        font-family:"Inconsolata";
-        font-size: 1.25em;
-        color: $grey-color-dark;
-        font-weight: 600;
-        &:before {content: "“ ";}
-        &:after {content: " ”";}
-    }
-    > blockquote {
-        padding: 40px;
+    blockquote {
+        border-left: 0px;
+        margin: 0px;
+        padding: 20px;
         letter-spacing: 0em;
         line-height: $base-line-height * 1.2;
-        p {color: $background-color;}
-    }
-
-    + P {
-        margin-top: -2.5em;
-        text-align: right;
+        p {
+            text-indent: 0em;
+            border-left: 0px;
+            background-color: $bg-color-light;
+            display: inline;
+            font-size: 1.25em;
+            color: $background-color;
+            font-weight: 600;
+        &:before {content: "“ ";}
+        &:after {content: " ”";}
+        }
+        blockquote {
+            border-left: 0px;
+            padding: 0px;
+            text-align: right;
+            p {
+                border-left: 0px;
+                font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+                color: $text-color;
+                &:before {content: "";}
+                &:after {content: "";}}
+        }
     }
 }
 

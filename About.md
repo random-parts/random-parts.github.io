@@ -12,4 +12,4 @@ After months of intermittent refactoring, it all tied together while listening t
 
 >> Art always involves a collision with the marketplace, an interaction with a recipient, a gift given and a gift received. You can plan and sketch and curse the system all day, but if you don't ship _you haven't done your work_. . .it's entirely possible that one day, your insight will be discovered and that it will touch someone or make a difference. But if you hide your contribution from us, you can't be considered an artiest, because it is not art until a human connection is made.
 
-\- Seth Godin, [The Icarus Deception](https://www.overdrive.com/media/1046990/the-icarus-deception)
+>>> \- Seth Godin, [The Icarus Deception](https://www.overdrive.com/media/1046990/the-icarus-deception)
