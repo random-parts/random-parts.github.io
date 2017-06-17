@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+section: About
 permalink: about/
 ---
 

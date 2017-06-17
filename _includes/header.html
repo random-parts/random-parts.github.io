@@ -11,8 +11,8 @@
       </a>
       <div class="trigger">
         {% for pg in site.pages %}
-          {% if pg.title %}
-          <a class="page-link" href="{{ pg.url | prepend: site.baseurl }}">{{pg.title}}</a>
+          {% if pg.section %}
+          <a class="page-link" href="{{ pg.url | prepend: site.baseurl }}">{{pg.section}}</a>
           {% endif %}
         {% endfor %}
       </div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Today I Learned
+section: Today I Learned
 permalink: til/
 ---
 <div class="post-content">
