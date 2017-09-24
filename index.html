@@ -3,22 +3,6 @@ layout: default
 ---
 <div class="home">
   <div class="post-content">
-  {% assign collection = site.til | reverse %}
-    {% for article in collection limit: 10 %}
-      {% if article.headline %}
-      <div class="tabordion">
-        <section id="section{{forloop.index}}">
-          <input type="radio" name="sections" id="option{{forloop.index}}" {% if forloop.first %}checked{% endif %}>
-          <label for="option{{forloop.index}}"><strong><a href="{{article.collection | prepend: site.baseurl}}/{{article.category}}/">{{article.category}}</a></strong>: {{article.headline}}<span><a href="{{article.url | prepend: site.baseurl}}">single view</a></span></label>
-          <article class="post">
-            <div class="wrapper">
-              {{article.content}}
-            </div>
-          </article>
-        </section>
-      </div>
-      {% endif %}
-    {% endfor %}
+  <p>This site has been archived at its <a href="https://github.com/random-parts/random-parts.github.io">github repository here.</a> All of the code can still be found there, along with an updated readme.md on the status and future of the project.</p>
   </div>
-<!--  <p class="rss-subscribe">subscribe <a href="{{"/feed.xml" | prepend: site.baseurl}}">via RSS</a></p> -->
 </div>

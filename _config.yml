@@ -35,25 +35,6 @@ show_dir_listing: false
 
 excerpt_separator: <!--more-->
 
-collections:
-  til:
-    output: true
-  til_categories:
-    output: true
-
-defaults:
-  -
-    scope:
-      type: til
-    values:
-      permalink: /:collection/:categories/:slug/
-      layout: til-single
-  -
-    scope:
-      type: til_categories
-    values:
-      permalink: /til/:categories/
-      layout: til-category
 
 array: []
 
