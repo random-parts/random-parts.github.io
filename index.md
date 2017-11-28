@@ -7,6 +7,7 @@ While listening to [The Coaching Habit], the end talks about the authors "Top Sh
 
 - [Mindset] <font size="1">| <a href="https://www.overdrive.com/media/233385/mindset">overdrive</a></font>
 - [Braving the Wilderness] <font size="1">| <a href="https://www.overdrive.com/media/3198225/braving-the-wilderness">overdrive</a></font>
+- [Mistakes were made (but not by me)] <font size="1">| <a href="https://www.overdrive.com/media/573883/mistakes-were-made-but-not-by-me">overdrive</a></font>
 - [Daring Greatly] <font size="1">| <a href="https://www.overdrive.com/media/3326143/daring-greatly">overdrive</a></font>
 - [Die Empty] <font size="1">| <a href="https://www.overdrive.com/media/1450906/die-empty">overdrive</a></font>
 - [It Didnt Start With You] <font size="1">| <a href="https://www.overdrive.com/media/2395059/it-didnt-start-with-you">overdrive</a></font>
@@ -24,16 +25,16 @@ While listening to [The Coaching Habit], the end talks about the authors "Top Sh
 - [The Happiness Equation] <font size="1">| <a href="https://www.overdrive.com/media/1928986/the-happiness-equation">overdrive</a></font>
 - [The Richer Sex] <font size="1">| <a href="https://www.overdrive.com/media/845002/the-richer-sex">overdrive</a></font>
 - [The Power of Different] <font size="1">| <a href="https://www.overdrive.com/media/3156828/the-power-of-different">overdrive</a></font>
-- [Leadership and Self-Deception] <font size="1">| <a href="https://www.overdrive.com/media/114755/leadership-and-self-deception">overdrive</a></font>
-- [Blink] <font size="1">| <a href="https://www.overdrive.com/media/653919/blink">overdrive</a></font>
 - [Succeed] <font size="1">| <a href="https://www.overdrive.com/media/355432/succeed">overdrive</a></font>
-- [Meditations] <font size="1">| <a href="https://www.overdrive.com/media/287520/meditations">overdrive</a></font>
 - [Linchpin] <font size="1">| <a href="https://www.overdrive.com/media/242862/linchpin">overdrive</a></font>
+- [Originals] <font size="1">| <a href="https://www.overdrive.com/media/2205291/originals">overdrive</a></font>
+- [Meditations] <font size="1">| <a href="https://www.overdrive.com/media/287520/meditations">overdrive</a></font>
 - [Civil Disobedience] <font size="1">| <a href="https://www.overdrive.com/media/3130078/civil-disobedience">overdrive</a></font>
 
 [The Coaching Habit]: https://www.worldcat.org/title/coaching-habit-say-less-ask-more-change-the-way-you-lead-forever/oclc/969053597&referer=brief_results
 [Mindset]: http://www.worldcat.org/oclc/929888799
 [Braving the Wilderness]: http://www.worldcat.org/oclc/1010600018
+[Mistakes were made (but not by me)]: https://www.worldcat.org/title/mistakes-were-made-but-not-by-me-why-we-justify-foolish-beliefs-bad-decisions-and-hurtful-acts/oclc/960079734&referer=brief_results
 [Daring Greatly]: http://www.worldcat.org/oclc/1003641523
 [Die Empty]: http://www.worldcat.org/oclc/997044220
 [It Didnt Start With You]: http://www.worldcat.org/oclc/948181047
@@ -51,9 +52,8 @@ While listening to [The Coaching Habit], the end talks about the authors "Top Sh
 [The Happiness Equation]: http://www.worldcat.org/oclc/1008697982
 [The Richer Sex]: http://www.worldcat.org/oclc/773985497
 [The Power of Different]: http://www.worldcat.org/oclc/974890921
-[Leadership and Self-Deception]: http://www.worldcat.org/oclc/921414863
-[Blink]: http://www.worldcat.org/oclc/933475486
 [Succeed]: http://www.worldcat.org/oclc/646113392
-[Meditations]: http://www.worldcat.org/oclc/464586916
 [Linchpin]: http://www.worldcat.org/oclc/966187668
+[Originals]: https://www.worldcat.org/title/originals/oclc/909318356&referer=brief_results
+[Meditations]: http://www.worldcat.org/oclc/464586916
 [Civil Disobedience]: http://www.worldcat.org/oclc/317494464
