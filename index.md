@@ -7,7 +7,7 @@ While listening to [The Coaching Habit], the end talks about the authors "Top Sh
 
 - [Mindset] <font size="1">| <a href="https://www.overdrive.com/media/233385/mindset">overdrive</a></font>
 - [Braving the Wilderness] <font size="1">| <a href="https://www.overdrive.com/media/3198225/braving-the-wilderness">overdrive</a></font>
-- [Mistakes were made (but not by me)] <font size="1">| <a href="https://www.overdrive.com/media/573883/mistakes-were-made-but-not-by-me">overdrive</a></font>
+- [Mistakes were made (but not by me)]<font size="2">* </font><font size="1">| <a href="https://www.overdrive.com/media/573883/mistakes-were-made-but-not-by-me">overdrive</a></font>
 - [Daring Greatly] <font size="1">| <a href="https://www.overdrive.com/media/3326143/daring-greatly">overdrive</a></font>
 - [Die Empty] <font size="1">| <a href="https://www.overdrive.com/media/1450906/die-empty">overdrive</a></font>
 - [It Didnt Start With You] <font size="1">| <a href="https://www.overdrive.com/media/2395059/it-didnt-start-with-you">overdrive</a></font>
@@ -27,9 +27,13 @@ While listening to [The Coaching Habit], the end talks about the authors "Top Sh
 - [The Power of Different] <font size="1">| <a href="https://www.overdrive.com/media/3156828/the-power-of-different">overdrive</a></font>
 - [Succeed] <font size="1">| <a href="https://www.overdrive.com/media/355432/succeed">overdrive</a></font>
 - [Linchpin] <font size="1">| <a href="https://www.overdrive.com/media/242862/linchpin">overdrive</a></font>
-- [Originals] <font size="1">| <a href="https://www.overdrive.com/media/2205291/originals">overdrive</a></font>
+- [Originals]<font size="2">* </font><font size="1"> | <a href="https://www.overdrive.com/media/2205291/originals">overdrive</a></font>
 - [Meditations] <font size="1">| <a href="https://www.overdrive.com/media/287520/meditations">overdrive</a></font>
 - [Civil Disobedience] <font size="1">| <a href="https://www.overdrive.com/media/3130078/civil-disobedience">overdrive</a></font>
+
+<font size="2">(*) updated list [28.11.17] 
+<br/>Instead of making the shelf larger, a new book will have to be able to replace one already there. Older lists can be viewed using the <a href="https://github.com/random-parts/random-parts.github.io/commits/master">commit log</a></font>
+
 
 [The Coaching Habit]: https://www.worldcat.org/title/coaching-habit-say-less-ask-more-change-the-way-you-lead-forever/oclc/969053597&referer=brief_results
 [Mindset]: http://www.worldcat.org/oclc/929888799
