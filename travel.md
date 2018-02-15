@@ -1,5 +1,6 @@
 ---
 layout: default
+title: travel
 category: travel
 permalink: /travel/
 ---
