@@ -4,3 +4,6 @@
 [submodule "_til_categories"]
 	path = _til_categories
         url = https://github.com/random-parts/til.git
+[submodule "_travel"]
+	path = _travel
+	url = https://github.com/random-parts/travel.git

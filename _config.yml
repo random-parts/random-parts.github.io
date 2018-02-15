@@ -35,6 +35,17 @@ show_dir_listing: false
 
 excerpt_separator: <!--more-->
 
+collections:
+  travel:
+    output: true
+
+defaults:
+  -
+    scope:
+      type: travel
+    values:
+      permalink: /:collection/:slug
+      layout: travel-single
 
 array: []
 
