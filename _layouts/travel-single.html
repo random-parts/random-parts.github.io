@@ -25,9 +25,9 @@ category: travel
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> in <a href="{{page.category | prepend: "/" | prepend: site.baseurl | prepend: site.url }}">{{page.category}}</a></p>
   </header>
   <div class="post-content" itemprop="articleBody">
-    {{ content }}
     {% if page.strava %}
       {% include strava.html strava_embed=page.strava headline=page.headline %}
     {% endif %}
+    {{ content }}
   </div>
 </article>
