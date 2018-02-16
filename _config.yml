@@ -9,7 +9,7 @@
 title: random parts
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  ©2017 random parts
+  ©2018 random parts
 
 # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
