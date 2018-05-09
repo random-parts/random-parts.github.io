@@ -2,4 +2,5 @@ _site
 .gitmodules
 .sass-cache
 .jekyll-metadata
+Gemfile.lock
 CNAME
