@@ -22,6 +22,7 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-sitemap
+  - jekyll-versioned_files
 
 # Build settings
 markdown: kramdown
@@ -38,13 +39,22 @@ excerpt_separator: <!--more-->
 collections:
   travel:
     output: true
+    permalink: /:collection/:slug
+  versioned_files:
+    output: false
+    versioned: true
+
+git_versioned_file: _dyslexia/adhd-dyslexia.md
+
+git_versioned_frontmatter:
+  permalink: orig_permalink
+  sha: commit
 
 defaults:
   -
     scope:
       type: travel
     values:
-      permalink: /:collection/:slug
       layout: travel-single
 
 array: []
