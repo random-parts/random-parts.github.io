@@ -4,7 +4,12 @@ code.highlighter-rouge {
   color: $code-color;
   font-weight: bold
 }
-
+.adhd code.highlighter-rouge {
+  font-family: $adhd-code-font-family;
+  font-size: $adhd-font-size;
+  color: $adhd-code-color;
+  font-weight: bold
+}
 pre.highlight {
   background: $bg-code-block;
   color: $grey-color-light;
