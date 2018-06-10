@@ -18,9 +18,9 @@ url: "http://random.parts"
 #twitter_username:
 github_username:  random-parts
 
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-gist
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-versioned_files
 
@@ -41,14 +41,16 @@ collections:
     output: true
     permalink: /:collection/:slug
   versioned_files:
-    output: false
+    output: true
     versioned: true
 
-git_versioned_file: _dyslexia/adhd-dyslexia.md
-
-git_versioned_frontmatter:
-  permalink: orig_permalink
-  sha: commit
+versioned_file_options:
+  files: _dyslexia/adhd-dyslexia.md
+  formatting:
+    diff_limit: true
+    output: html
+  frontmatter:
+    sha: commit
 
 defaults:
   -
@@ -56,6 +58,11 @@ defaults:
       type: travel
     values:
       layout: travel-single
+  -
+    scope:
+      path: "dyslexia.md"
+    values:
+      permalink: /adhd-dyslexia/
 
 array: []
 
