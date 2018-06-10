@@ -131,60 +131,60 @@ color: darken($adhd-brand-color, 15%);
       }
   }
 }
-  /**
-   * Blockquotes
-   */
-  blockquote {
-    position: inherit;
-    letter-spacing: .1875em;
-    margin: 0px 10px;
-    padding: 0px;
-    text-align: left;
-    p {
-      text-indent: 0em;
-      border-left: 0px;
-      background-color: $bg-color-light;
-      color: $adhd-text-color;
-      font-weight: 500;
-      letter-spacing: 0px;
-      line-height: $adhd-line-height *.8;
-      padding: 5px;
-      margin: 0px;
-      font-family: $adhd-quote-font-family;
-      font-size: $adhd-small-font-size;
-    }
+/**
+* Blockquotes
+*/
+blockquote {
+  position: inherit;
+  letter-spacing: .1875em;
+  margin: 0px 10px;
+  padding: 0px;
+  text-align: left;
+  p {
+    text-indent: 0em;
+    border-left: 0px;
+    background-color: $bg-color-light;
+    color: $adhd-text-color;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: $adhd-line-height *.8;
+    padding: 5px;
+    margin: 0px;
+    font-family: $adhd-quote-font-family;
+    font-size: $adhd-small-font-size;
   }
-  /**
-   * Links
-   */
-  a {
-    color: $adhd-brand-color;
+}
+/**
+  * Links
+  */
+a {
+  color: $adhd-brand-color;
+  text-decoration: none;
+  &:visited {
+    color: darken($adhd-brand-color, 15%);
+  }
+  &:hover {
+    cursor: pointer;
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+/**
+* diff formatting
+*/
+span.adhd {
+  s, strike, del {
+    background: peachpuff;
+    color: darkgreen;
+}
+  strong, ins {
     text-decoration: none;
-    &:visited {
-      color: darken($adhd-brand-color, 15%);
-    }
-    &:hover {
-      cursor: pointer;
-      color: $text-color;
-      text-decoration: underline;
-    }
+    font-weight: bold;
+    color: purple;
   }
-  /**
-   * diff formatting
-   */
- span.adhd {
-    s, strike, del {
-      background: peachpuff;
-      color: darkgreen;
-  }
-    strong, ins {
-      text-decoration: none;
-      font-weight: bold;
-      color: purple;
-    }
-  }
+}
 
-  hr {margin: $spacing-unit/3 0 $spacing-unit/3 0;}
+hr {margin: $spacing-unit/3 0 $spacing-unit/3 0;}
 
 .adhd {
   font-family: $adhd-font-family;
