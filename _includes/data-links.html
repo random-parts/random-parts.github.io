@@ -1,0 +1,29 @@
+{% assign file = include.file %}
+
+{% for type in site.data[file] %}
+<div class="data-links">
+  <h3>{{type[0]}}</h3>
+  <ul>
+  {% for item in type[1].links %}
+    {% assign a = site.array %}
+    {% if {{item.series.size}}  != 0 %}
+      {% for sub in item.series %}
+        {% capture series %}<a href="{{sub.link}}">{{sub.name}}</a>{% endcapture %}
+        {% assign a = a | push: {{series}} %}
+      {% endfor %}
+    {% endif %}
+    <li>
+      <a href="{{item.link}}">{{item.name}}</a> - {{item.desc}}
+      {% if {{a.size}} != 0 %}
+        <ul>
+          <li>{{a[0]}} | {{a[1]}}</li>
+        </ul>
+      {% endif %}
+      {% if item.comment != "" %}
+      <blockquote><p><font face="Tajawal">{{item.comment}}</font></p></blockquote>
+      {% endif %}
+  </li>
+  {% endfor %}
+  </ul>
+  </div>
+{% endfor %}

@@ -1,0 +1,92 @@
+{
+  "Websites": {
+    "links": [
+      {
+        "name": "ADDitude",
+        "desc": "Inside the ADHD\nmind",
+        "link": "https://www.additudemag.com/",
+        "series": [],
+        "comment": "This\nis a wonderful free online resource for information, experiences, understanding\nand advice from a variety of viewpoints including adult ADHD'ers, parents of\nADHD kids, physicians, and researchers."
+      }
+    ]
+  },
+  "Books": {
+    "links": [
+      {
+        "name": "The Dyslexic Advantage",
+        "desc": "Unlocking the Hidden Potential of\nthe Dyslexic Brain",
+        "link": "https://www.worldcat.org/search?q=The+dyslexic+advantage",
+        "series": [
+          {
+            "name": "overdrive",
+            "link": "https://www.overdrive.com/media/1940970/the-dyslexic-advantage"
+          },
+          {
+            "name": "amazon-smile",
+            "link": "https://smile.amazon.com/Dyslexic-Advantage-Unlocking-Hidden-Potential/dp/B005IEDKQO"
+          }
+        ],
+        "comment": "I almost didn't read(listen to) this book after having read the\n\"The ADHD Advantage\" and being throughly disappointed in it. While the \"The\nADHD Advantage\" seems to be more of a cheerleading book, \"The Dyslexic\nAdvantage\" provides interesting insight into a dyslexic brain's cognition."
+      },
+      {
+        "name": "The Power of Different",
+        "desc": "The link between disorder and\ngenius",
+        "link": "http://www.worldcat.org/oclc/974890921",
+        "series": [
+          {
+            "name": "overdrive",
+            "link": "https://www.overdrive.com/media/3156828/the-power-of-different"
+          },
+          {
+            "name": "amazon-smile",
+            "link": "https://smile.amazon.com/Power-Different-Between-Disorder-Genius/dp/B01N706N28"
+          }
+        ],
+        "comment": ""
+      },
+      {
+        "name": "Braving the Wilderness",
+        "desc": "The Quest for True\nBelonging and the Courage to Stand Alone",
+        "link": "http://www.worldcat.org/oclc/1010600018",
+        "series": [
+          {
+            "name": "overdrive",
+            "link": "https://www.overdrive.com/media/3198225/braving-the-wilderness"
+          },
+          {
+            "name": "amazon-smile",
+            "link": "https://smile.amazon.com/Braving-Wilderness-Quest-Belonging-Courage/dp/B074G5P4WN"
+          }
+        ],
+        "comment": "Not specifically ADHD or Dyslexia related; useful in the search for\nbelonging many of us seek."
+      }
+    ]
+  },
+  "Videos - YouTube": {
+    "links": [
+      {
+        "name": "Dyslexia for a Day",
+        "desc": "Inside the ADHD mind",
+        "link": "https://www.additudemag.com/",
+        "series": [
+          {
+            "name": "Writing Simulation",
+            "link": "https://www.youtube.com/watch?v=ZznFCz6V1cM"
+          },
+          {
+            "name": "Round Robin\nReading",
+            "link": "https://www.youtube.com/watch?v=vNwuXbmXOtY"
+          }
+        ],
+        "comment": "These were interesting to stumble across in a somewhat funny and painful way. My\npersonal belief is that every primary/grade school teacher should <a\nhref=\"http://dyslexiatraininginstitute.org/simulation-kit.html\">experience\nthese simulations</a>."
+      },
+      {
+        "name": "Dyslexia Explained",
+        "desc": "What's It\nLike Being Dyslexic?",
+        "link": "https://www.youtube.com/watch?v=IEpBujdee8M",
+        "series": [],
+        "comment": "Realities."
+      }
+    ]
+  }
+}
